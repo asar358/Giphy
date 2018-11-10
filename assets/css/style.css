@@ -1,0 +1,25 @@
+header {
+    font-size: 40px;
+    text-align: center;
+    background-color: grey;
+    padding: 30px;
+}
+#gif-form {
+    margin-left: 30px;
+}
+
+#gif-area {
+    padding: 30px;
+}
+#find-gif {
+   margin: 20px auto;
+}
+
+#gif-images {
+    margin-left: 30px;
+    
+}
+
+.gifImages {
+    display: inline-block;
+}
