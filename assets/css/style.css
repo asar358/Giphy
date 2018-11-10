@@ -1,11 +1,16 @@
+
 header {
     font-size: 40px;
     text-align: center;
-    background-color: grey;
+    background-color: black;
+    color: white;
     padding: 30px;
 }
 #gif-form {
     margin-left: 30px;
+    color:white;
+    font-size: 20px;
+    padding:20px;
 }
 
 #gif-area {
@@ -20,6 +25,8 @@ header {
     
 }
 
-.gifImages {
+.gifHolder {
     display: inline-block;
+    margin: 20px;
 }
+

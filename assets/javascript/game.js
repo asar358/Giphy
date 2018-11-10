@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-    var topics = ["Michael Jordan ", " Lebron James", "Tim Duncan ",];
+    var topics = ["Cristiano Ronaldo ", " Lionel Messi", "David Beckham ",];
 
     function buttonValue(newTopics) {
         $('#gif-area').empty()
@@ -37,7 +37,7 @@ $(document).ready(function () {
             for (var j = 0; j < results.length; j++) {
                 var stillImage = results[j].images.fixed_height_small_still.url;
                 var movingImage = results[j].images.fixed_height_small.url;
-                var newDiv = $('<div>'); 
+                var newDiv = $('<div class= "gifHolder">'); 
                 
                 var rating = results[j].rating;
                 var print = $('<p>').text('Rating: ' + rating);
