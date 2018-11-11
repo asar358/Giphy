@@ -28,5 +28,6 @@ header {
 .gifHolder {
     display: inline-block;
     margin: 20px;
+    color: white;
 }
 
